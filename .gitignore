@@ -1,0 +1,19 @@
+out/
+*.class
+
+# IDE
+.idea/
+*.iml
+.vscode/
+*.swp
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Логи (появятся позже)
+logs/
+*.log
+
+# Конфигурация (появится позже)
+config.properties
