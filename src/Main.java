@@ -26,5 +26,10 @@ public class Main {
         
         System.out.println("================================");
         System.out.println("Готово!");
+
+        calculator.setOperation(new Division());
+        double result4 = calculator.calculate(10, 5);
+        System.out.println("10 " + calculator.getCurrentOperationSymbol() + " 5 = " + result4);
+        
     }
 }
