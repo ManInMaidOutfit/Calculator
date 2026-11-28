@@ -7,4 +7,8 @@ public class Multuply implements Operation
     {
         return "*";
     }
+    public double execute(double a, double b) 
+    {
+       return a * b;
+    }
 }
